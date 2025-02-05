@@ -60,7 +60,6 @@ import static org.awaitility.Awaitility.await;
         type = {EngineType.SPARK, EngineType.FLINK},
         disabledReason = "Currently SPARK and FLINK do not support restore")
 public class MysqlCDCWithBinlogDeleteIT extends TestSuiteBase implements TestResource {
-    // mysql
     private static final String MYSQL_HOST = "mysql_cdc_e2e";
     private static final String MYSQL_USER_NAME = "mysqluser";
     private static final String MYSQL_USER_PASSWORD = "mysqlpw";
